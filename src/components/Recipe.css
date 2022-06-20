@@ -1,0 +1,16 @@
+.eachCard {
+  /* width: 300px; */
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.recipeCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.recipeImage {
+  width: 100px;
+  height: 100px;
+}
