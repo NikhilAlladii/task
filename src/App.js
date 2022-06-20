@@ -20,7 +20,7 @@ function App() {
     }
   }, []);
 
-  console.log("suceess", successMessage);
+
 
   return (
     <div>
