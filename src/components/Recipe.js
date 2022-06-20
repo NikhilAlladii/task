@@ -239,7 +239,7 @@ function Recipe() {
         <p></p>
       </div>
 
-      {/* <div className="recipeCards">
+      <div className="recipeCards">
         {favorites.map((receipe) => (
           <div key={receipe.id}>
             <div className="eachCard p-2">
@@ -303,7 +303,7 @@ function Recipe() {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
 
       <Modal
         open={open}

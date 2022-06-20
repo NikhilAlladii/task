@@ -12,13 +12,13 @@ function App() {
   let successMessage;
   const history = useHistory();
 
-  // useEffect(() => {
-  //   signUpData && localStorage.setItem("logIn", "success");
-  //   let successMessage = localStorage.getItem("logIn");
-  //   if (successMessage === "success") {
-  //     history.push("/signup");
-  //   }
-  // }, []);
+  useEffect(() => {
+    signUpData && localStorage.setItem("logIn", "success");
+    let successMessage = localStorage.getItem("logIn");
+    if (successMessage === "success") {
+      history.push("/signup");
+    }
+  }, []);
 
   console.log("suceess", successMessage);
 
